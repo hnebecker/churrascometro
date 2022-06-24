@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Churrascometro, churrasco, calculadora, carne, bebida">
+    <meta name="description" content="Churrascometro BK">
+    <meta property="og:title" content="Churrascometro BK">
+    <link rel=“canonical” href="https://www.BKdesenvolve.site/">
+    <title>Churrascometro BK</title>
+    <meta developer="BKdesenvolve">
+    <link rel="icon" href="./images/beer.png" alt="Copo de chopp" type="image">
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+    <div class="explica">
+        <h1>Churrascômetro:</h1>
+        <p>Bem vindo! Esperamos que este churrascômetro ajude você!</p>
+        <p>Para utilizar selecione a quantidade de pessoas que confirmaram a presença. Após selecione se é um churrasco
+        de final de semana na opção <strong>Churras</strong>, ou se você irá fazer um grande evento na opção 
+        <strong>Festa</strong>.
+        </p>
+        <p>E aí é só clicar em <strong>Calcular</strong>.</p>
+        <small>Obs: não esquecer de me convidar.</small>
+    </div>    
+    <div class="dados"><h1>Calculadora</h1>
+        Homens <input min="0" id="homem" type="number" name="homem" placeholder="Homens"><br>
+        Mulheres <input min="0" id="mulher" type="number" name="mulher" placeholder="Mulheres"><br>
+        Crianças <input min="0" id="crianca" type="number" name="crianca" placeholder="Crianças"><br>
+        <select id="opcao" name = "opcaos" size="1">
+            <option value="churras">Churras</option>
+            <option value="festa">Festa</option>
+        </select><br>
+        <button onclick="calc()">Calcular</button><br>
+
+    </div>
+    <div class="resultado"><h1>Resultado</h1>
+        <div id="car"></div>
+        <div id="cer"></div>
+        <div id="ref"></div>
+        <div id="agu"></div>
+        <hr>
+        <div id="carn"></div>
+        <div id="cerv"></div>
+        <div id="refr"></div>
+        <div id="aguaA"></div>
+    </div>
+    <footer>
+        <div class="contatos">
+        <div id="contato"><h1>Contato:</h1></div>
+        <div id="whats"><h2><a href="https://web.whatsapp.com/send?phone=5554991072422"><img id="whatsImage" src="./images/whatsapp-.svg" alt="whatsapp">+5554991072422</a></h2></div>
+        <div id="mail"><h2><a href="mailto:hnebecker@gmail.com"><img id="emailImage" src="./images/mail_FILL0_wght400_GRAD0_opsz48.svg" alt="email">hnebecker@gmail.com</a></h2></div> 
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
